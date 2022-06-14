@@ -14,7 +14,7 @@ build:
     - stac-validator = stac_validator.stac_validator:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -46,4 +46,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - gadomski
+    - jonhealy1
